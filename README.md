@@ -1,0 +1,2 @@
+# BrightPreciousThingsWebsite
+Static Art website
