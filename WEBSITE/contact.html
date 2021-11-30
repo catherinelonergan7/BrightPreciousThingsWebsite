@@ -1,0 +1,110 @@
+<!--
+*Author: Catherine Lonergan
+*Date: 10/12/2020
+-->
+
+
+<!DOCTYPE html>
+
+	<html lang = "en">
+	
+	<head>
+	
+		<title>Bright Precious Things | Art Design | Handmade</title>
+		
+		<meta charset = "UTF-8">
+		<meta name="viewport" content="width=device-width, intial-scale=1">
+
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+			<link rel="stylesheet" href="external.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+			 <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+			<script src="javascriptcontact.js"></script>
+			</head>
+			
+			<body>
+			
+			<!-- logo created using online tool-->
+    <div class="container-fluid"> 
+        <div class="logo">
+            <img src="logo1.png" class="img-fluid" alt="Bright Precious Things">
+        </div>
+    </div>
+				<!-- nav bar the same for each page for consistent design -->
+	<div class = "container-fluid">
+      <div class="navbar">
+		<a href="index.html">Home</a>
+		<a href="woodlandseries.html">Woodland Series</a>
+		<a href="watercolourcards.html">Watercolor Cards</a>
+		<a href="boxcanvasgift.html">Gift Box Canvas</a>
+		<a href="https://www.instagram.com/catoart777/">Instagram</a>
+		<a href="contact.html">Contact Us</a>
+		</div>
+		</div>
+		
+			<!-- contact form for client to send email, must be not left empty validation method with javascript -->
+			<!--I looked at the form in Sample 2 project on Moodle for the form and changed around some elements to suit-->
+		
+		  <div id="contentWrap">
+      <div class="container">
+			<div class="row justify-content-md-center ">
+			<div class="col-6">
+            <h2 class="MYID">Contact Catherine</h2>
+              <div id="contactform">
+                <form id="Contact" onsubmit="Validateform()" method="post" action="mailto:catherinelonergan7@gmail.com">
+                  <div class="left">
+                    <label class="question">Full Name:</label><br />
+                    <input class="form" type="text" name="name" size="20" required="required" maxlength="30" /><br />
+                    <label class="question">Email Address:</label><br />
+                    <input class="form" type="text" name="email" size="20" required="required" maxlength="30"  /><br />
+                    <label class="question">Phone Number:</label><br />
+                    <input class="form" type="text" name="number" size="20" required="required" maxlength="30" /><br />
+                   
+                    <br />
+                  </div>
+                  <div id="comments">
+                    <div class="right">
+                      <label id="comment">Comments:<br/>
+                      <textarea id="textarea" name="comment" maxlength="360" cols="40" rows="12"></textarea></label><br />
+                    </div>
+                  </div>
+                  <input id="submit" type="submit" value="Submit" />
+                </form>
+            </div>
+          </div>
+		  </div>
+		  </div>
+		  
+		  <!-- image with link to online petition, I looked at stack overflow for the offset-2 so there would be a gap between the 
+		  form and image -->
+		   
+		  <div class="container">
+			<div class="row justify-content-md-center ">
+			<div class="col-6 col-offset-2 ">
+		    
+		<a href = "https://my.uplift.ie/petitions/save-our-four-districts-woodland-habitat">
+		<img src = "woodland2.jpg" 
+		class = "img-thumbnail" alt = "this is a picture of the woodlandss"/></a>
+		<p> Click on image above to sign online petition to save the woodlands of Rathcoole</p>
+		
+		</div>
+		</div>
+		</div>
+		
+		
+		
+    <div class="container-fluid">
+        <footer id="footer">Copyright Catherine Lonergan - Maykon Alessi&nbsp; 2020 &nbsp; 
+            <a href="#https://www.instagram.com/catoart777/">
+            <img alt="InstagranLink" src="insta1.png"></a>
+            <a href="https://www.facebook.com/CatoArtt">
+            <img alt="facebookLink" src="facebook1.png"></a></footer>
+    </div>
+    </div>	
+			
+			
+			</body>
+			
+			
+			</html>
